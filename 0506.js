@@ -1,21 +1,18 @@
 //const nomes = ['tom', 'alex', 'bob'];
 //nomes.reverse(); // retorna ["bob", "alex", "tom"]
-//console.log(nomes)
-//-------------------------------ERRADO-------------- Não consegui
+//método toString() para converter o número em uma string antes de aplicar 
+//o método split(""), reverse() e join("") para inverter a string.
+//pegado na internet
 
-const numeros = []; //pq vai colocar lá no parseflor
+function mostrarNumeroInvertido() {
+  var numero = prompt("Digite um número:");
+  var numeroInvertido = numero.split("").reverse().join("");
 
-function numerosContagem() {
-  for (let i = 0; i < 5; i++) {
-    const numero = parseFloat(prompt("Digite um número"));
-    numeros.push(numero);
-  }
-  
-  window.alert(numeros);
-  numeros.reverse();
-  window.alert(numeros);
+  console.log("Número invertido: " + numeroInvertido);
 }
 
-numerosContagem();
+// Exemplo de uso da função:
+//
+mostrarNumeroInvertido();
 
 

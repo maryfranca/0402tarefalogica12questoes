@@ -2,17 +2,6 @@
 //Por  exemplo, o usuário informa a string “Beterraba”, e a função retorna o número 4 (há 4 vogais nessa palavra). 
 //function contarVogais(palavra) {
 //codigo ajuda na internet
-    
-//var palavra = parseFloat(prompt("Digite uma palavra:"));
-//var vogais = ["a", "e", "i", "o", "u"]
-
-//function verificarVogal(){
-    //for(palavra in vogais){
-       // window.alert(palavra)
-   // }
-
-//}
-//verificarVogal()
 // acessar caracteres individuais em uma string com base em sua posição.
 //codigo ajuda na internet
 
